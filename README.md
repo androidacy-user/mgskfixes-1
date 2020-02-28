@@ -1,4 +1,4 @@
-# Magisk Fixes (Unity) 
+# Magisk Fixes (MMT-ex) 
 
 _If you like my work please feel free to donate to my [PayPal](https://paypal.me/innonetlife). It would mean a lot to me_
 
@@ -48,6 +48,10 @@ zackptg5 - For unity
 linuxandria - That's me! 
 
 ### Changelog
+
+_v1.1.0_
+
+- Update template to latest mmt-ex
 
 _v1.0.0_
 
