@@ -1,6 +1,6 @@
 # Magisk Fixes (MMT-ex) 
 
-_If you like my work please feel free to donate to my [PayPal](https://paypal.me/linuxandria) or my [Patreon](https://www.patreon.com/linuxandria_xd). It would mean a lot to me_
+_If you like my work please feel free to donate to my [PayPal](https://paypal.me/linuxandria) or my [Patreon](https://www.patreon.com/linuxandria_xda). It would mean a lot to me_
 
 ## What's this?
 
