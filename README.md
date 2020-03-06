@@ -49,6 +49,12 @@ linuxandria - That's me!
 
 ### Changelog
 
+_v1.2.1_
+
+- Major rework of the whole module
+
+- Add support for google devices
+
 _v1.1.0_
 
 - Update template to latest mmt-ex
