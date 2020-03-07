@@ -1,7 +1,7 @@
 id=mgskfixes
 name=Magisk Fixes (MMT-ex) 
-version=1.2.1
-versionCode=0005
+version=1.2.2
+versionCode=0006
 author=linuxandria
 description=A few fixes for Magisk, focusing on GSI compatibility with magisk.
 
