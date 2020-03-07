@@ -26,7 +26,7 @@ then
 		echo "cp /system/phh/google-uinput-fpc.kl /mnt/phh/keylayout/uinput-fpc.kl" >> $MODPATH/post-fs-data.sh
 		echo "chmod 0644 /mnt/phh/keylayout/uinput-fpc.kl" >> $MODPATH/post-fs-data.sh
 		echo "mount -o bind /mnt/phh/keylayout /system/usr/keylayout" >> $MODPATH/post-fs-data.sh
-		echo "restorecon -R /system/usr/keylayout" > $MODPATH/post-fs-data.sh" >> $MODPATH/post-fs-data.sh;
+		echo "restorecon -R /system/usr/keylayout" >> $MODPATH/post-fs-data.sh;
 fi
 if getprop ro.product.vendor.brand|grep -q -e motorola/;
 then
