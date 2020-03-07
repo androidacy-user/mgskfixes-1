@@ -21,15 +21,12 @@ fi
 if getprop ro.vendor.build.fingerprint |grep -q -e google/;
 then
 	ui_print "- Google device detected!"
-	if [ -f /system/phh/google-uinput-fpc.kl ];
-	then
-		{
-		echo "cp /system/phh/google-uinput-fpc.kl /mnt/phh/keylayout/uinput-fpc.kl"
-		echo "chmod 0644 /mnt/phh/keylayout/uinput-fpc.kl"
-		echo "mount -o bind /mnt/phh/keylayout /system/usr/keylayout"
-		echo "restorecon -R /system/usr/keylayout"
-		} >> "$MODPATH"/post-fs-data.sh;
-	fi
+	{
+	echo "cp /system/phh/google-uinput-fpc.kl /mnt/phh/keylayout/uinput-fpc.kl"
+	echo "chmod 0644 /mnt/phh/keylayout/uinput-fpc.kl"
+	echo "mount -o bind /mnt/phh/keylayout /system/usr/keylayout"
+	echo "restorecon -R /system/usr/keylayout"
+	} >> "$MODPATH"/post-fs-data.sh;
 fi
 if getprop ro.product.vendor.brand|grep -q -e motorola/;
 then
