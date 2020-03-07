@@ -26,12 +26,6 @@ then
 	echo "chmod 0644 /mnt/phh/keylayout/uinput-fpc.kl"
 	echo "mount -o bind /mnt/phh/keylayout /system/usr/keylayout"
 	echo "restorecon -R /system/usr/keylayout"
-	} >> "$MODPATH"/post-fs-data.sh;
-	{
-	echo "cp /system/phh/google-uinput-fpc.kl /mnt/phh/keylayout/uinput-fpc.kl"
-	echo "chmod 0644 /mnt/phh/keylayout/uinput-fpc.kl"
-	echo "mount -o bind /mnt/phh/keylayout /system/usr/keylayout"
-	echo "restorecon -R /system/usr/keylayout"
 	} >> "$MODPATH"/service.sh;
 	
 fi
