@@ -12,11 +12,11 @@ resetprop partition.system.verified 2
 }
 
 # If the vendor has the libs don't use ours
-if [ -f /vendor/lib*/libdirect-coredump.so ];
-then
+for i in /vendor/lib*/libdirect-coredump.so
+do
 	cp -rf /vendor/lib64/libdirect-coredump.so $MODPATH/system/lib64
 	cp -rf /vendor/lib/libdirect-coredump.so $MODPATH/system/lib;
-fi
+done
 # Originally by phhusson, Adapted by linuxandria
 if getprop ro.vendor.build.fingerprint |grep -q -e google/;
 then
