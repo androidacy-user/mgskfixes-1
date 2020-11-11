@@ -1,6 +1,6 @@
 # Magisk Fixes (MMT-ex) 
 
-_If you like my work please feel free to donate to my [PayPal](https://paypal.me/linuxandria) or my [Patreon](https://www.patreon.com/linuxandria_xda). It would mean a lot to me_
+_If you like my work please feel free to donate to my [PayPal](https://paypal.me/linuxandria) or my [Patreon](https://www.patreon.com/linuxandria_xda). It would mean a lot to me. Also check out [my website](https://linuxandria.com)_
 
 ## What's this?
 
@@ -62,6 +62,8 @@ _v1.1.0_
 _v1.0.0_
 
 - Initial release 
+
+### I NEED MORE PEOPLE TO GIVE FEEDBACK. THIS MODULE CANNOT CONTINUE WITHOUT NORE FEEDBACK
 
 
 
