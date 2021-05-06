@@ -1,7 +1,5 @@
 # Magisk Fixes (MMT-ex) 
-
-_If you like my work please feel free to donate to my [PayPal](https://paypal.me/linuxandria) or my [Patreon](https://www.patreon.com/linuxandria_xda). It would mean a lot to me. Also check out [my website](https://linuxandria.com)_
-
+## An Androidacy Project - [androidacy.com](https://www.androidacy.com/)
 ## What's this?
 
 This is a small collection of fixes for Magisk. Primarily targeting Motorola devices 
@@ -24,18 +22,17 @@ Yes! Magisk is by nature modular, making things simpler
 
 ## Where do I get support?
 
-I highly recommend joining our telegram group [here](https://t.me/inlmagisk)
+Please refer to the Contact page linked at the top.
 
 The XDA thread is [right here](https://forum.xda-developers.com/android/software/magiskfixes-fixing-magisk-magisk-t3977203)
 
 ## Fix {x} is needed on my device
 
-Join the support group or XDA and let me know and I'll add it in
+Join the support group or XDA and let us know and we may add it in!
 
 ## Compatibility 
 
-Magisk 18.1+ suggested 
-
+Magisk 20+ required!
 
 
 
@@ -45,7 +42,7 @@ topjohnwu - For Magisk
 
 zackptg5 - For unity
 
-linuxandria - That's me! 
+Androidacy - this module
 
 ### Changelog
 
@@ -63,7 +60,4 @@ _v1.0.0_
 
 - Initial release 
 
-### I NEED MORE PEOPLE TO GIVE FEEDBACK. THIS MODULE CANNOT CONTINUE WITHOUT MORE FEEDBACK
-
-
-
+## Please remember this module can only incorporate a fix if you report it's needed!
